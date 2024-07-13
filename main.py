@@ -26,6 +26,7 @@ def responses(x):
             # myobj=gTTS(text=arr[resp], lang=language, slow=False)
             myobj = arr[resp]
             SpeakText(myobj)
+            # uncomment the following lines to use gtts method
             # myobj.save('first.mp3')
             # pygame.mixer.init()
             # pygame.mixer.music.load("first.mp3")
